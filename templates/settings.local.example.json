@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "deny": [
+      "Read(./build/**)",
+      "Read(./.cache/**)",
+      "Read(./node_modules/**)",
+      "NotebookEdit",
+      "CronCreate",
+      "CronDelete",
+      "CronList",
+      "RemoteTrigger",
+      "EnterWorktree",
+      "ExitWorktree",
+      "Monitor",
+      "TaskStop"
+    ]
+  },
+  "enabledMcpjsonServers": ["only-the-servers-this-project-needs"]
+}
